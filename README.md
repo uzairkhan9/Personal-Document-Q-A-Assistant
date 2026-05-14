@@ -6,7 +6,10 @@ PDF → split into chunks → embed chunks → store in ChromaDB
 User question → embed question → similarity search → top-k chunks → LLM → answer + sources
 
 How to run:
+
 pip install langchain langchain-openai langchain-community chromadb pypdf streamlit
+
 export OPENAI_API_KEY="your-key"
+
 streamlit run app.py
 
